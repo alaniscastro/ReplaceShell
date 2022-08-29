@@ -11,7 +11,6 @@ NEW_STRING=${args[3]}   	#What you want to replace the string with
         touch $FINAL_FILE
 
 echo "Replacing '$OLD_STRING' for '$NEW_STRING' globally in $FILE_NAME"
-echo ""
 
 while read line; do
         a=""
